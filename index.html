@@ -57,11 +57,19 @@ body {
 }
 
 #status-progress {
-	bottom: 10%;
+	bottom: 15%;
 	width: 50%;
 	margin: 0 auto;
 	border: 2px solid #ebb42b;
 	accent-color: #ebb42b;
+}
+
+#status-progress::-webkit-progress-bar {
+  background-color: #2e0b0f;
+}
+#status-progress::-webkit-progress-value {
+  background-color: #ebb42b;
+  border-radius: 7px;
 }
 
 #status-notice {
